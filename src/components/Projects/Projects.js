@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -20,11 +19,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Instkilo"
-              description="A modern social media platform inspired by Instagram with enhanced features for sharing photos and connecting with friends. Built with React, Node.js, and MongoDB for a seamless user experience."
-              ghLink="https://github.com/Rehan1908/InstaKilo"
+              title="StackStories"
+              description="A collaborative platform for developers to share coding challenges and solutions. Features a rich text editor, code highlighting, and community voting system to promote knowledge sharing."
+              ghLink="https://github.com/Rehan1908/Stack-Stories"
+              websitelink="https://stack-stories.onrender.com"
             />
           </Col>
 
@@ -32,12 +32,32 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="StackStories"
-              description="A collaborative platform for developers to share coding challenges and solutions. Features a rich text editor, code highlighting, and community voting system to promote knowledge sharing."
-              ghLink="https://github.com/Rehan1908/Stack-Stories"
+              title="BookFinder"
+              description="An app where you can find books, reviews, and much more."
+              ghLink="https://github.com/Rehan1908/Bookfinder-Frontend"
+              websitelink="https://bookfinder-frontend.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Instkilo"
+              description="A modern social media platform inspired by Instagram with enhanced features for sharing photos and connecting with friends. Built with React, Node.js, and MongoDB for a seamless user experience."
+              ghLink="https://github.com/Rehan1908/InstaKilo"
+              websitelink="https://insta-kilo.vercel.app/login"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="SoftShell"
+              description="Turn Your Unused Licenses into Cash
+SoftSell helps you quickly and securely sell your old software licenses. Get a fast valuation and get paid in days!"
+              ghLink="https://github.com/Rehan1908/softshell"
+              websitelink="          https://internship-ruddy-eta.vercel.app/
+"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}

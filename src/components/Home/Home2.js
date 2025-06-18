@@ -14,22 +14,22 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Let me <span className="purple"> introduce </span> myself
+              Let me <span className="purple"> Introduce </span> myself
             </h1>
             <p className="home-about-body">
               I am passionate about programming and have gained proficiency in
               <i>
-                <b className="purple"> C, Javascript, and Python.</b>
+                <b className="purple">Javascript, C#, and Python.</b>
               </i>
               <br />
               <br />
-              My interests include developing new
+              My interests include developing Software that
               <i>
-                <b className="purple"> web technologies and products</b>
+                <b className="purple">I Find Intresting</b>
               </i>
               , as well as exploring areas related to
               <i>
-                <b className="purple"> blockchain.</b>
+                <b className="purple"> Game Development.</b>
               </i>
               <br />
               <br />
