@@ -94,7 +94,7 @@ function Projects() {
               title="Instkilo"
               description="A modern social media platform inspired by Instagram with enhanced features for sharing photos and connecting with friends. Built with React, Node.js, and MongoDB for a seamless user experience."
               ghLink="https://github.com/Rehan1908/InstaKilo"
-              websitelink="https://insta-kilo.vercel.app/login"
+              websitelink="https://insta-kilo.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
