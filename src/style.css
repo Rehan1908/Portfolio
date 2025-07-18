@@ -741,3 +741,38 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.experience-card {
+  background-color: rgb(33, 37, 41);
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.experience-card h3 {
+  margin-bottom: 10px;
+}
+
+.experience-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.experience-card .about-activity {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.experience-card .about-activity svg {
+  margin-right: 10px;
+  margin-top: 3px;
+  min-width: 15px;
+  color: #c770f0;
+}
